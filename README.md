@@ -1,7 +1,8 @@
 # Command-Line Task Manager
 
-A command-line task manager built in Python that enables users to create, view, update, and delete tasks. The application uses a JSON file for persistent data storage and includes input validation to ensure reliable user interaction.
+A command-line task manager built in Python that enables users to create, view, mark, and delete tasks. The application uses a JSON file for persistent data storage and includes input validation to ensure reliable user interaction.
 
+This project was built as a beginner-friendly application to practice file handling, data persistence, and command-line interface design in Python. Tasks are stored locally in a JSON file, allowing simple and persistent data management without the need for a database.
 
 ## Features
 
