@@ -12,6 +12,94 @@ A command-line task manager built in Python that enables users to create, view, 
 * Data stored in `tasks.json`
 * Input validation for user commands
 
+## Demo
+
+```bash
+Welcome to Task Manager!
+
+==== Task Manager ====
+1. Add Task
+2. View Tasks
+3. Mark Done
+4. Remove Task
+5. Exit
+Choose: 2
+
+==== Task List ====
+1. [ ] Study Python loops
+2. [ ] Read about data structures
+3. [ ] Review lecture notes
+4. [ ] Plan next study session
+
+Press Enter to continue...
+
+==== Task Manager ====
+1. Add Task
+2. View Tasks
+3. Mark Done
+4. Remove Task
+5. Exit
+Choose: 1
+Enter new task name: Revise algorithms concepts
+Task added successfully
+Press Enter to continue...
+
+==== Task Manager ====
+1. Add Task
+2. View Tasks
+3. Mark Done
+4. Remove Task
+5. Exit
+Choose: 2
+
+==== Task List ====
+1. [ ] Study Python loops
+2. [ ] Read about data structures
+3. [ ] Review lecture notes
+4. [ ] Plan next study session
+5. [ ] Revise algorithms concepts
+
+Press Enter to continue...
+
+==== Task Manager ====
+1. Add Task
+2. View Tasks
+3. Mark Done
+4. Remove Task
+5. Exit
+Choose: 3
+Enter task number: 4
+Task marked successfully
+Press Enter to continue...
+
+==== Task Manager ====
+1. Add Task
+2. View Tasks
+3. Mark Done
+4. Remove Task
+5. Exit
+Choose: 2
+
+==== Task List ====
+1. [ ] Study Python loops
+2. [ ] Read about data structures
+3. [ ] Review lecture notes
+4. [✓] Plan next study session
+5. [ ] Revise algorithms concepts
+
+Press Enter to continue...
+
+==== Task Manager ====
+1. Add Task
+2. View Tasks
+3. Mark Done
+4. Remove Task
+5. Exit
+Choose: 5
+Tasks saved!
+Thank you for using Task Manager.
+```
+
 ## Technologies Used
 
 * Python
